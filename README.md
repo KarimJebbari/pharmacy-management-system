@@ -13,7 +13,7 @@ The system allows pharmacists to manage medications, monitor stock and expiratio
 - Ability to create awareness articles for customers about diseases and proper medications.
 - Automated email requests to suppliers when medication stock runs out.
 
-### Pharmacy Dashboard
+### Pharmacist Dashboard
 
 This is the first page that appears after the pharmacist logs in.  
 It provides a complete overview of the medications previously added by the pharmacist and allows the following actions:
@@ -24,3 +24,4 @@ It provides a complete overview of the medications previously added by the pharm
 - Use the search bar to quickly find medications by name or price.
 
 ![Pharmacist Dashboard Screenshot](docs/screenshots/dashboard.png)
+![Pharmacist Update Screenshot](docs/screenshots/update.png)
