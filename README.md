@@ -104,3 +104,25 @@ This feature enhances communication between the pharmacist and the customers, pr
 
 - Articles that can be deleted or edited :
   ![Articles Management Page](docs/screenshots/article.png)
+
+### Customer Inquiries Management Page
+
+This page allows the **pharmacist to receive and manage inquiries** sent by customers.  
+Customers can use the contact form to ask questions about medications, prescriptions, or any related topic.
+
+**Main functionalities:**
+- Displays a **list of received inquiries** with:
+  - Customer **name**
+  - **Email address**
+  - **Phone number**
+  - **Message content**
+  - **Date and time** the inquiry was received  
+- The pharmacist can click **"Voir"** to open the message in detail.
+- From there, the pharmacist can **reply directly via Gmail** or **contact the customer by phone**.
+
+This page helps maintain communication between the pharmacist and customers, ensuring professional and responsive service.
+
+- Pharmacist inquiry management interface:  
+  ![Inquiries Page](docs/screenshots/inquiries_page.png)
+- After pressing "Voir"
+  ![Inquiries Page](docs/screenshots/voir.png)
