@@ -39,3 +39,16 @@ Each order contains detailed information, including:
 Once an action is taken, the order status is updated accordingly in the system.
 
 ![Orders Management Screenshot](docs/screenshots/orders.png)
+
+### Add Medication Page
+
+This page allows the pharmacist to **add new medications** to the system so that they become visible to customers.  
+Each medication entry includes:
+
+- The medication name, category, and description.  
+- The expiration date and quantity in stock.  
+- The supplier’s email address — this information will be used later when the pharmacist needs to send a **restock request** directly to the supplier.
+
+Once the form is submitted, the new medication automatically appears on the customer purchase page.
+
+![Add Medication Screenshot](docs/screenshots/add_medication.png)
