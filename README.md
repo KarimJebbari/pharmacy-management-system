@@ -85,3 +85,22 @@ This feature simplifies the communication between the pharmacist and suppliers, 
 
 - Supplier email view:  
   ![Supplier Email Example](docs/screenshots/supplier_email_example.png)
+
+### Health Articles Management Page
+
+This section allows the **pharmacist to create and manage health awareness articles**.  
+These articles aim to inform customers about common diseases, **methods of prevention**, and **recommended medications**.
+
+**Main functionalities:**
+- The pharmacist can **add, edit, or delete** articles easily.  
+- By clicking **"Voir tous les articles"**, all published articles are displayed in a list for management.  
+- Each article includes a **title, description, and optional image**.  
+- All published articles appear **automatically on the main customer homepage**, at the bottom section.
+
+This feature enhances communication between the pharmacist and the customers, promoting health education and awareness.
+
+- Article management interface :  
+  ![Articles Management Page](docs/screenshots/articles_management_page.png)
+
+- Articles that can be deleted or edited :
+  ![Articles Management Page](docs/screenshots/article.png)
