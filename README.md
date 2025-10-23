@@ -25,3 +25,17 @@ It provides a complete overview of the medications previously added by the pharm
 
 ![Pharmacist Dashboard Screenshot](docs/screenshots/dashboard.png)
 ![Pharmacist Update Screenshot](docs/screenshots/update.png)
+
+### Orders Management Page
+
+This page allows the pharmacist to view and manage all the medication orders sent by customers.  
+Each order contains detailed information, including:
+
+- The customer’s full name, address, and phone number.  
+- The list of ordered medications.  
+- A required medical prescription (for controlled or dangerous medications).  
+- The possibility for the pharmacist to **accept** or **reject** the order after contacting the customer.
+
+Once an action is taken, the order status is updated accordingly in the system.
+
+![Orders Management Screenshot](docs/screenshots/orders.png)
