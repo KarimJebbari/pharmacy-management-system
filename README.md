@@ -52,3 +52,17 @@ Each medication entry includes:
 Once the form is submitted, the new medication automatically appears on the customer purchase page.
 
 ![Add Medication Screenshot](docs/screenshots/add_medication.png)
+
+### Near Expiry Medications Page
+
+This page displays a **list of all medications that are close to their expiration date** (30 days or less).  
+It allows the pharmacist to easily monitor which products need attention.
+
+**Main functionalities:**
+- Automatic listing of near-expiry medications.  
+- Simple and clean interface for quick overview.  
+- Real-time update when the stock reaches zero (medication no longer appears in the alert).
+
+This feature helps maintain patient safety and ensures the pharmacy always provides valid products.
+
+![Near Expiry Medications Page](docs/screenshots/near_expiry_medications_page.png)
