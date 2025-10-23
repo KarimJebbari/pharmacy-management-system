@@ -13,6 +13,23 @@ The system allows pharmacists to manage medications, monitor stock and expiratio
 - Ability to create awareness articles for customers about diseases and proper medications.
 - Automated email requests to suppliers when medication stock runs out.
 
+### Pharmacist Login Page
+
+This page allows the **pharmacist to securely log in** using their **dedicated email and password**.
+
+**Main functionalities:**
+- Secure login form that requires:
+  - **Email** 
+  - **Password**
+- Redirects the pharmacist to the **dashboard** upon successful login.
+- Prevents unauthorized access — any incorrect credentials will show an error message:  
+  `"Les identifiants de connexion sont incorrects."`
+- Ensures that **only registered pharmacists** can access the inventory management, order processing, and article creation sections.
+
+- Pharmacist login interface:  
+  ![Pharmacist Login Page](docs/screenshots/pharmacist_login_page.png)
+
+
 ### Pharmacist Dashboard
 
 This is the first page that appears after the pharmacist logs in.  
