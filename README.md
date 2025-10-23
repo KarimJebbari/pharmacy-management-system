@@ -24,6 +24,7 @@ This page allows the **pharmacist to securely log in** using their **dedicated e
 - Redirects the pharmacist to the **dashboard** upon successful login.
 - Prevents unauthorized access — any incorrect credentials will show an error message:  
   `"Les identifiants de connexion sont incorrects."`
+  ![Pharmacist Login Page](docs/screenshots/idt.png)
 - Ensures that **only registered pharmacists** can access the inventory management, order processing, and article creation sections.
 
 - Pharmacist login interface:  
