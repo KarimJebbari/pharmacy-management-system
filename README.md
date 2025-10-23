@@ -66,3 +66,22 @@ It allows the pharmacist to easily monitor which products need attention.
 This feature helps maintain patient safety and ensures the pharmacy always provides valid products.
 
 ![Near Expiry Medications Page](docs/screenshots/near_expiry_medications_page.png)
+
+### Out of Stock Medications Page
+
+This page lists **all medications that are officially out of stock**.  
+It helps the pharmacist quickly identify which products need to be restocked.
+
+**Main functionalities:**
+- Displays the **name of each medication**, its **previous expiration date**, and the **quantity to reorder**.  
+- Allows the pharmacist to specify how many units to order.  
+- A button **"Envoyer la demande"** sends the order request directly to the supplier’s email.  
+- The supplier receives an **automatic email** with all medication details and quantities requested.
+
+This feature simplifies the communication between the pharmacist and suppliers, ensuring fast restocking and continuous availability of medicines.
+
+- Pharmacist view:  
+  ![Out of Stock Medications Page](docs/screenshots/out_of_stock_medications_page.png)
+
+- Supplier email view:  
+  ![Supplier Email Example](docs/screenshots/supplier_email_example.png)
