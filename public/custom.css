@@ -1,0 +1,123 @@
+/* تخصيص خلفية الجسم */
+body {
+    background-color: #22b803 !important; /* لون خلفية هادئ يشبه اللون السماوي الفاتح */
+    color: #2c3e50 !important; /* لون النص الرئيسي، رمادي داكن لراحة القراءة */
+}
+
+/* تخصيص الأزرار */
+.btn {
+    border-radius: 5px !important; /* جعل الأزرار مدورة */
+    padding: 10px 20px !important; /* إضافة padding للأزرار */
+}
+
+.btn-primary {
+    background-color: #2ecc71 !important; /* أخضر ناعم للأزرار الرئيسية (لون الصيدلية) */
+    border-color: #2ecc71 !important;
+}
+
+.btn-primary:hover {
+    background-color: #27ae60 !important; /* تغيير اللون عند المرور إلى الأخضر الداكن */
+    border-color: #27ae60 !important;
+}
+
+.btn-danger {
+    background-color: #e74c3c !important; /* أحمر دافئ للأزرار المحذوفة */
+    border-color: #e74c3c !important;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b !important; /* تغيير اللون عند المرور إلى الأحمر الداكن */
+    border-color: #c0392b !important;
+}
+
+/* تخصيص التنبيهات */
+.alert {
+    border-radius: 5px !important; /* جعل التنبيهات مدورة */
+    font-size: 1rem !important; /* حجم خط أكبر قليلاً */
+    padding: 15px !important; /* إضافة padding للتنبيهات */
+}
+
+.alert-success {
+    background-color: #28a745 !important; /* اللون الأخضر الفاتح للتنبيهات الناجحة */
+    color: white !important;
+}
+
+.alert-danger {
+    background-color: #e74c3c !important; /* الأحمر المتوهج للتنبيهات الخطأ */
+    color: white !important;
+}
+
+/* تخصيص الجداول */
+.table {
+    width: 100% !important; /* جعل الجدول يشغل العرض بالكامل */
+    margin-bottom: 1rem !important; /* إضافة هامش أسفل الجدول */
+    border-collapse: collapse !important; /* حذف المسافات بين الخلايا */
+}
+
+.table th, .table td {
+    padding: 10px !important; /* إضافة padding للخلايا */
+    text-align: center !important; /* محاذاة النص في الخلايا */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ecf0f1 !important; /* تلوين الصفوف الفردية بلون رمادي فاتح */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #bdc3c7 !important; /* تغيير اللون عند المرور على الصفوف إلى رمادي */
+}
+
+/* تخصيص الواجهات */
+.container {
+    max-width: 1140px !important; /* جعل العرض الأقصى للحاوية */
+    margin: 0 auto !important; /* جعل المحتوى في الوسط */
+}
+
+/* تخصيص الفئات الخاصة في الجسم */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50 !important; /* لون النص للعناوين، داكن لراحة القراءة */
+    font-weight: 600 !important; /* جعل الخط عريض */
+}
+
+p {
+    line-height: 1.6 !important; /* تحسين التباعد بين الأسطر */
+    font-size: 1rem !important; /* حجم خط مناسب للفقرات */
+}
+
+/* تخصيص الحقول النصية (inputs) */
+input, select, textarea {
+    border-radius: 5px !important; /* جعل الحقول مدورة */
+    padding: 10px !important; /* إضافة padding للحقل */
+    border: 1px solid #bdc3c7 !important; /* حد خفيف رمادي حول الحقول */
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #2ecc71 !important; /* تغيير الحد عند التركيز إلى الأخضر الهادئ */
+    box-shadow: 0 0 5px rgba(46, 204, 113, 0.5) !important; /* إضافة تأثير ظل أخضر عند التركيز */
+}
+
+/* تخصيص الروابط */
+a {
+    color: #3498db !important; /* تغيير لون الروابط إلى الأزرق الفاتح */
+    text-decoration: none !important; /* إزالة الخط تحت الرابط */
+}
+
+a:hover {
+    color: #2980b9 !important; /* تغيير اللون عند المرور على الرابط إلى الأزرق الداكن */
+    text-decoration: underline !important; /* إضافة خط تحت الرابط عند المرور */
+}
+
+/* تخصيص الفئات الخاصة بعرض التحميل */
+.spinner-border {
+    color: #2ecc71 !important; /* تغيير لون مؤشر التحميل إلى الأخضر الهادئ */
+}
+
+/* تخصيص نمط الأيقونات */
+i {
+    font-size: 1.2rem !important; /* حجم أيقونات أكبر قليلاً */
+    color: #2ecc71 !important; /* لون الأيقونات الأخضر */
+}
+
+i:hover {
+    color: #27ae60 !important; /* تغيير اللون عند المرور على الأيقونات إلى الأخضر الداكن */
+}
