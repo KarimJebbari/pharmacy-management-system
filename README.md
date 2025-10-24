@@ -239,7 +239,7 @@ Make sure you create a MySQL database named pharmacy before running migrations
 
 ### The project will now be available at:
 
-`"http://127.0.0.1:8000"`
+`"http://127.0.0.1:8000/pharmacy"`
 
 ## Create a test pharmacist account
 
