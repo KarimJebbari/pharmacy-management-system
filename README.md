@@ -243,6 +243,8 @@ Make sure you create a MySQL database named pharmacy before running migrations
 
 ## Create a test pharmacist account
 
+`"php artisan tinker"`
+
 ```php
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
