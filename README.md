@@ -206,9 +206,9 @@ Follow these steps to set up and run the Pharmacy Management System locally
 
 ### Edit the file with:
  
-DB_DATABASE=pharmacy
-DB_USERNAME=root
-DB_PASSWORD=
+- DB_DATABASE=pharmacy
+- DB_USERNAME=root
+- DB_PASSWORD=
 
 ### Then generate the application key:
 
@@ -243,6 +243,7 @@ Make sure you create a MySQL database named pharmacy before running migrations
 
 ## Create a test pharmacist account
 
+```php
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 
