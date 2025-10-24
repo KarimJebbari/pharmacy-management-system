@@ -158,3 +158,15 @@ At the bottom of the page, there is a **contact form** allowing users to send in
 ![Main Page Screenshot](docs/screenshots/artcl_cln.png)
 
 ![Main Page Screenshot](docs/screenshots/form.png)
+
+## Medicine Purchase Page
+
+When the customer clicks the **“Buy Medicines”** button, they are redirected to this page.  
+It displays all the **available medications** in stock, along with their names, prices, and details.  
+A **search bar** allows users to quickly find a specific medicine.  
+At the bottom of the page, there is a **shopping cart** that updates dynamically as the user adds or removes items.  
+Customers can specify the **quantity** they want to purchase and then proceed to **confirm the order**.
+
+![Medicine Purchase Page Screenshot](docs/screenshots/medicine-purchase-page.png)
+
+![Medicine Purchase Page Screenshot](docs/screenshots/cmdd.png)
