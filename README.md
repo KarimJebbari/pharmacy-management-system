@@ -1,6 +1,6 @@
 # Pharmacy Management System
 
-A pharmacy management system developed with Laravel, MySQL, Bootstrap, CSS, and a bit of AJAX. 
+A pharmacy management system developed with Laravel, Vite, MySQL, Bootstrap, CSS, and a bit of AJAX. 
 The system allows pharmacists to manage medications, monitor stock and expiration, and handle customer orders efficiently.
 
 
@@ -184,3 +184,85 @@ On the right side of the page, a **summary of the order** is displayed — showi
 Once all details are confirmed, the customer can **submit the order**, which will be sent directly to the **pharmacist’s dashboard** for processing.
 
 ![Order Confirmation Page Screenshot](docs/screenshots/order-confirmation-page.png)
+
+
+# How to Install and Run the Project
+
+Follow these steps to set up and run the Pharmacy Management System locally
+
+## 1. Clone the repository
+
+`"git clone https://github.com/KarimJebbari/pharmacy-management-system.git"`
+`"cd pharmacy-management-system"`
+
+## 2. Install PHP dependencies
+
+`"composer install"`
+
+## 3. Create the .env file
+### Copy the example configuration and update your database credentials:
+
+`"cp .env.example .env"`
+
+### Edit the file with:
+ 
+DB_DATABASE=pharmacy
+DB_USERNAME=root
+DB_PASSWORD=
+
+### Then generate the application key:
+
+`"php artisan key:generate"`
+
+## 4. Create the database
+Make sure you create a MySQL database named pharmacy before running migrations
+
+## 5. Run migrations and seeders
+
+`"php artisan migrate --seed"`
+
+## 6. Link storage
+
+`"php artisan storage:link"`
+
+## 7. Install Node.js dependencies
+
+`"npm install"`
+
+## 8. Run Vite (frontend)
+
+`"npm run dev"`
+
+## 9. Start the Laravel development server
+
+`"php artisan serve"`
+
+### The project will now be available at:
+
+`"http://127.0.0.1:8000"`
+
+## Create a test pharmacist account
+
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
+
+User::create([
+  'name' => 'Pharmacist',
+  'email' => 'pharmacist@example.com',
+  'password' => Hash::make('password'),
+  'role' => 'pharmacist',
+  'email_verified_at' => now(),
+]);
+exit
+
+
+# ⚠️ Troubleshooting
+
+    Ensure Node.js version >=16.
+
+    No need to install Vite globally (npm i -g vite).
+
+    If the dev server port is busy, either close the other application or change the port in vite.config.js.
+
+    Make sure to run npm run dev alongside php artisan serve to see frontend changes.
+
