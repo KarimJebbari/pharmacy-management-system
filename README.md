@@ -170,3 +170,17 @@ Customers can specify the **quantity** they want to purchase and then proceed to
 ![Medicine Purchase Page Screenshot](docs/screenshots/medicine-purchase-page.png)
 
 ![Medicine Purchase Page Screenshot](docs/screenshots/cmdd.png)
+
+## Order Confirmation Page
+
+After clicking the **“Complete Order”** button, the customer is redirected to the **order confirmation page**.  
+Here, the user must fill in their **personal information**, including:
+- Full name  
+- Phone number  
+- Address  
+- A **medical prescription image** (required for restricted medicines)  
+
+On the right side of the page, a **summary of the order** is displayed — showing the **total number of items** selected and the **final price**.  
+Once all details are confirmed, the customer can **submit the order**, which will be sent directly to the **pharmacist’s dashboard** for processing.
+
+![Order Confirmation Page Screenshot](docs/screenshots/order-confirmation-page.png)
