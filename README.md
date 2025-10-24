@@ -153,8 +153,8 @@ Customers can also read **health articles** written by the pharmacist, displayed
 A **search bar** is available to look for specific articles easily.  
 At the bottom of the page, there is a **contact form** allowing users to send inquiries by filling in their name, email, phone number, and message.
 
-![Main Page Screenshot](docs/main-page.png) 
+![Main Page Screenshot](docs/screenshots/main_page.png) 
 
-![Main Page Screenshot](docs/artcl_cln.png)
+![Main Page Screenshot](docs/screenshots/artcl_cln.png)
 
-![Main Page Screenshot](docs/form.png)
+![Main Page Screenshot](docs/screenshots/form.png)
