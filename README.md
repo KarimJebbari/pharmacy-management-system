@@ -270,6 +270,6 @@ exit
     Make sure to run npm run dev alongside php artisan serve to see frontend changes.
 ```
 
-After running the project, open your browser and go to: [http://127.0.0.1:8000/pharmacy](http://127.0.0.1:8000/pharmacy)
+<!-- After running the project, open your browser and go to: [http://127.0.0.1:8000/pharmacy](http://127.0.0.1:8000/pharmacy) -->
 
 
