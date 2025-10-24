@@ -192,8 +192,8 @@ Follow these steps to set up and run the Pharmacy Management System locally
 
 ## 1. Clone the repository
 
-`"git clone https://github.com/KarimJebbari/pharmacy-management-system.git"`
-`"cd pharmacy-management-system"`
+- `"git clone https://github.com/KarimJebbari/pharmacy-management-system.git"`
+- `"cd pharmacy-management-system"`
 
 ## 2. Install PHP dependencies
 
