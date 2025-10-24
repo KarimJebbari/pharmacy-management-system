@@ -144,3 +144,17 @@ This page helps maintain communication between the pharmacist and customers, ens
   ![Inquiries Page](docs/screenshots/inquiries_page.png)
 - After pressing "Voir"
   ![Inquiries Page](docs/screenshots/voir.png)
+
+## Main Page (Client Interface)
+
+This is the first page displayed to customers.  
+It shows the main pharmacy interface with a button that redirects to the **medicine purchasing page**.  
+Customers can also read **health articles** written by the pharmacist, displayed directly on this page.  
+A **search bar** is available to look for specific articles easily.  
+At the bottom of the page, there is a **contact form** allowing users to send inquiries by filling in their name, email, phone number, and message.
+
+![Main Page Screenshot](docs/main-page.png) 
+
+![Main Page Screenshot](docs/artcl_cln.png)
+
+![Main Page Screenshot](docs/form.png)
